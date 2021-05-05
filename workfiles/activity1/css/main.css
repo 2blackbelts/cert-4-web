@@ -1,0 +1,22 @@
+/* style sheet for Week 1 exercises */    
+html {
+	height: 100%; 
+}
+body {
+	background-color: #FFF;
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 0.8em;
+	margin: 0 4% 0 4%;
+}
+/* default styling for HTML5 tags - force a line break */
+header, footer, nav {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  color: #309;
+  border-bottom: 1px solid #309;
+}
+footer {
+  border-top: 1px solid #309;
+}

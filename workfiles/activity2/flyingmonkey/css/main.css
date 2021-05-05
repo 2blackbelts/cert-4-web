@@ -1,0 +1,119 @@
+/*   Style sheet for Monica the Flying Monkey      */
+/*   Created by Monica Key on quatorze juillet 2015    */ 
+html, body {
+	height: 100%;
+}
+body {
+	/* background image is from www.vectorjungle.com free vector images */
+	background: #293A47 url(../img/palmtree.jpg);
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	font: 0.8em Verdana, "Bitstream Vera Sans", "DejaVu Sans", sans-serif;
+	color: #000;
+	background-color: #FFF; 
+}
+/* Tell old browsers about HTML5 tags */
+header, footer, nav {
+	display: block;
+}
+#wrapper {
+	/* min-height to force footer to bottom of page */
+	height: 90%;
+	background-color: #F0EBE6;
+	width: 980px;
+	margin: 0 auto 0 auto; 
+}
+h1 {
+	margin: 25px 0 0 0;		/* set this explicitly to avoid problems in IE */
+	padding: 2px 20px 2px 30px;
+	font: bold 3em/5em "Rockwell Extra Bold", "Bitstream Vera Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #630;
+}
+h2 {
+	margin: 0;			
+	padding: 25px 20px 2px 0;
+	font-family: "Rockwell Extra Bold", "Bitstream Vera Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 2em;
+	color: #630;
+}
+header {
+	margin: 0;	
+	padding: 0;
+	text-align: left; 
+}
+#imgHeader {
+	float: right;
+	margin: 20px 30px 0 0; 
+}
+.imgBorder {
+	border: 3px solid #630;
+	margin: 0 10px 0 0;
+}
+.imgLeft {
+	border: none;
+	float: left;
+	margin: 0 10px 0 0;
+}
+a {
+	color: #06C; 
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #C93;   
+}
+nav  {
+	background-color: #FFF;
+	line-height: 2em;
+}
+nav a  {
+	margin: 2em;
+	padding: 1em 1em 1em 1em;
+	line-height: 1.7em;
+	font-size: 1em;
+	background-color: #630;
+}
+nav  a:link, nav  a:visited {
+	color: #FFF; 
+}
+nav  a:hover, nav  a:active {
+	color: #C93;
+}
+#content {
+	margin: 0 15px 0 15px; 	
+	padding-left: 10px;
+	padding-top: 2px;  
+}
+/*        formatting for the journal entries (in index.html) */
+#journalItems p {
+	clear: right;
+	padding-top: 15px;  /* to put some space between each item */
+}
+#journalItems img {
+	border: 1px solid #000;
+	float: right;
+	margin: 0 15px 0 15px;  	
+}
+/*     formatting for the "Snapshot" photo gallery    */
+#snapshotList {
+	list-style-type: none;
+}
+#snapshotList li {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+#snapshotList img {
+	display: block;
+	border: 1px solid #630;
+}
+.clear { 
+	clear: both; 
+}
+footer {
+	clear: both;
+	margin: 25px 0 0 5px;
+	padding: 1em 0 0.1em 2em;
+	font-size: 0.7em;
+}
