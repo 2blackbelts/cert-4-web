@@ -1,0 +1,64 @@
+/* style sheet for International Exclamation Day website - PHP Lesson 2 */    
+body {
+	background-color: #917C59; 
+	color: #000;
+	font: 0.8em Verdana, "Bitstream Vera Sans", "DejaVu Sans", Arial, sans-serif;
+	margin: 0;	
+	padding: 0;
+	text-align: center;	 
+}
+/* Tell old browsers about HTML5 tags - force a line break */
+header, footer, nav {
+  display: block;  
+}
+#wrapper {  
+  width: 960px;
+  margin-top: 30px;
+  margin: 0 auto 0 auto;
+  text-align: left;
+  padding: 0 5px 0 5px;      
+  background-color: #EDE0CC; 
+}
+.center {
+    text-align: center;
+}
+h1 {
+	color: #333;
+	font-size: 2.8em;
+	text-align: center;  
+}
+h2 {
+	font-size: 2em;  
+}
+h3 {
+	font-size: 1.6em;
+}
+a:link, a:visited {
+	color: #805004; 
+	font-size: 1em; 
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 2%;
+}
+a:hover, a:active {
+	color: #E0900D; 
+	font-size: 1em;
+	font-weight: bold;  
+	text-decoration: none;
+	margin-left: 2%;
+}
+label {  
+	float: left;
+	width:	12em;
+	text-align: left;
+	clear: left;
+	margin-right: 15px;
+	font-weight: bold;
+}
+footer {
+	border-top: 1px solid #805004;
+	color: #333;
+	font-size: 0.7em;
+	font-weight: lighter;
+	text-align: right; 
+}
