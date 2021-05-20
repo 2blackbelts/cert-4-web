@@ -1,0 +1,68 @@
+/* style sheet for Journal website PHP Lesson 6 */  
+html, body {
+	height: 100%;  
+}
+body {
+	margin: 0;
+	background-color: #CCC;
+	color: #000;
+	font: 0.8em Verdana,"Bitstream Vera Sans", "DejaVu Sans", Arial, sans-serif; 
+}
+/* Tell old browsers about HTML5 tags - force a line break */
+header, footer, nav {
+  display: block;
+}
+#wrapper {
+  background-color: #E9F1DB;
+  width: 960px;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+}
+#imgLogo {
+	float: right;  
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.5em;  
+}
+h3 {
+	font-size: 1.2em; 
+}
+a {
+	color: #060; 
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #FFF;
+	background-color: #060;   
+}
+nav a {
+	margin-right: 2%;
+}
+footer {
+	font-size:0.7em;
+	font-weight:lighter; 
+}
+/*** formatting for forms ***/
+label {
+	float: left;
+	width:	12em;
+	text-align: left;
+	clear: left;
+	margin-right: 15px;
+	font-weight: bold;
+}
+textarea.hidden {
+	background-color: #E9F1DB; 
+	color: #060;
+	font-weight: bold;
+	border: none; 
+	overflow: hidden;
+}
+.redText {
+	color: #F00;
+	font-weight: bold;
+}
