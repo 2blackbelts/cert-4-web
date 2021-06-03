@@ -8,7 +8,26 @@
 
 <p>
 <?php
-	// Put your form validation here...
+	// collect data
+	$firstname = $_POST['txtFirstname'];
+	$lastname = $_POST['txtLastname'];
+	$msg = "Everything is cool.";
+
+	//check data (validation)
+	if(empty($firstname) || empty($lastname)) {
+		$msg = "Not cool man";
+	}
+
+	if(strlen($firstname) < 2) {
+		$msg = "Not cool man";
+	}
+
+
+
+
+	// show errors OR show success message (save to database)
+	print $msg;
+	
 	
 ?>	
 

@@ -6,10 +6,11 @@
 <p>Register NOW to receive our exclusive newsletter!!!!!!</p>
 <h3>Please complete this form to register: </h3>      
 
-<form id="frmRegister" action=" " method="post">
+<form id="frmRegister" action="registervalidate.php" method="post">
 <p>
 	<label for="txtFirstname">First Name:</label>
 	<input type="text" id="txtFirstname" name="txtFirstname" size="20" /><br /><br />
+	<!-- firstname_error -->
 
 	<label for="txtLastname">Last Name:</label> 
 	<input type="text" id="txtLastname" name="txtLastname" size="20" /><br /><br />
