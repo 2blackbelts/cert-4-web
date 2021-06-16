@@ -1,0 +1,95 @@
+/* style sheet for Dungeon Antiques (Lesson 8) */      
+html, body {
+	height: 100%;  
+}
+body {
+	background-color: #633;
+	color: #000;
+	font: 0.8em Verdana,"Bitstream Vera Sans", "DejaVu Sans", Arial, sans-serif;
+	margin: 0 5% 0 5%;
+	overflow-y: scroll;
+	}
+/* Tell old browsers about HTML5 tags */
+header, footer, nav {
+  display: block;
+}
+/* Reset some margins & padding */
+p, h2, header, footer, nav {
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 1px 5px 0 5px;
+}
+nav {
+	line-height: 35px;
+  padding-left: 20px;
+  background-color: #CC9;
+}
+#wrapper {
+/* min-height to force footer to bottom of page */
+  min-height: 100%;
+  background-color: #FFF;
+}
+#content {
+/* the bottom padding (30px) stops the content overrunning the footer */
+  padding: 15px 20px 30px 5px;
+}
+/* Set footer margins to FORCE FOOTER TO BOTTOM OF PAGE for short pages */
+footer {
+  margin-top: -25px;
+  height: 25px;
+  line-height: 25px; 
+  padding-left: 10px;
+  clear: both;
+  background-color: #CC9;
+	font-size: 7.5pt; 
+}
+a {
+	font-weight: bold; 
+	text-decoration: none;
+	margin-right: 2%;
+}
+a:link, a:visited {
+	color: #633;
+}
+a:hover, a:active {
+	color: #663; 
+}
+.leftimg {
+	float: left;
+	margin-right: 15px;
+	margin-left: 5px;
+}
+.rightimg {
+	float: right;
+	margin-left: 15px;
+	margin-right: 5px;
+}
+label {
+	float: left;
+	width:	12em;
+	text-align: left;
+	clear: left;
+	margin-right: 15px;
+	font-weight: bold;
+}
+h1 {
+	font: 40px Georgia,serif;
+	font-weight: bold;  
+	line-height: 60px; 
+	color: #633;
+}
+h2 {
+  font: 18pt Georgia,serif;
+}
+h3 {
+	font-weight: bold;  
+}
+/* classes to align text (mainly for tables) */
+.rightText {
+	text-align: right;
+}
+.leftText {
+	text-align: left;
+}
